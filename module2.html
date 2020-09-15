@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assingment 2</title>
+<link rel='stylesheet' type='text/css' href='css/bootstrap.min.css' >
+<style>
+
+    *
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body
+    {
+        font-family: sans-serif; 
+    }
+    .row
+    {
+        width: 100%;
+    }
+    .menu-heading
+    {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .container
+    {
+        position: relative;
+        top: 60px;
+        margin:15px;
+    }
+    .item
+    {
+        position: relative;
+        top: 0;
+        background-color: #b19cd9;
+        margin:15px;
+        padding: 25px;
+        border:3px solid black;
+
+    }
+    .item p
+    {
+        margin-top: 18px;
+        text-align: justify;
+        font-size: 100%
+    }
+    .item-heading
+    {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        background:pink;
+        padding: 6px 90px;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    #title-1
+    {
+        background-color: lightblue;
+    }
+    #title-2
+    {
+        background-color: lightblue;
+    }
+    #title-3
+    {
+        background-color: lightblue;
+    }
+
+
+    /*--DESKTOP--*/
+    @media(min-width: 992px)
+    {
+        .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12
+        {
+            float:left;
+        }
+        .col-lg-1 
+        {
+            width: 8.33%;
+        }
+        .col-lg-2 
+        {
+            width: 16.66%;
+        }
+        .col-lg-3   
+        {
+            width: 25%;
+        }
+        .col-lg-4 
+        {
+            width: 33.33%;
+        }
+        .col-lg-5 
+        {
+            width: 41.66%;
+        }
+        .col-lg-6 
+        {
+            width: 50%;
+        }
+        .col-lg-7 
+        {
+            width: 58.33%;
+        }
+        .col-lg-8 
+        {
+            width: 66.66%;
+        }
+        .col-lg-9 
+        {
+            width: 74.99%;
+        }
+        .col-lg-10 
+        {
+            width: 83.33%;
+        }
+        .col-lg-11 
+        {
+            width: 91.66%;
+        }
+        .col-lg-12 
+        {
+            width: 100%;
+        }
+    } 
+    @media (min-width: 768px) and (max-width: 991px)
+    {
+        .col-lg-4 
+        {
+            width: 50%;
+            float: left;
+        }
+        .col-lg-tablet
+        {
+            width: 100%;
+            float: left;
+        }
+    }   
+
+</style>
+</head>
+<body bgcolor="pink">
+    <div class="container">
+        <div class="row">
+
+        <h1 class="menu-heading"><u>TOP 3 PROGRAMMING lANGUAGES</u></h1>
+            <div class="col-lg-4">
+                <div class="item">
+                    <div class="item-heading" id="title-1">
+                        <h3>PYTHON</h3>
+                    </div>
+                    <p>
+                        <ul>
+                        <li> Python is an interpreted,object-oriented, high-level programming language.</li>
+                        <li>Python is simple,easy to learn.</li>
+                        <li>Python supports modules and pakages, which encourages program modularity and code reuse</li>
+                        <li>The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</li> 
+                        <li>Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault</li>
+                        </ul> 
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="item">
+                    <div class="item-heading" id="title-2">
+                        <h3>JAVA</h3>                        
+                    </div>
+                    <p>
+                        <ul>
+                            <li>Java is a high-level programming language developed by Sun Microsystems.</li>
+                            <li>It was originally designed for developing programs for set-top boxes and handheld devices, but later became a popular choice for creating web applications.</li>
+                            <li>Java programs are interpreted by the Java Virtual Machine, or JVM, which runs on multiple platforms. This means all Java programs are multiplatform and can run on different platforms, including Macintosh, Windows, and Unix computers</li>
+                    </p>
+                    
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-lg-tablet">
+                <div class="item">
+                    <div class="item-heading" id="title-3">
+                        <h3>JAVA SCRIPT</h3>
+                        
+                    </div>
+                    <p>
+                        <ul>
+                            <li>Javascript (JS) is a scripting languages, primarily used on the Web.</li>
+                            <li>It is used to enhance HTML pages.</li>
+                            <li>Javascript is a interpreted language, thus it doesn't need to be compiled.</li>
+                            <li>JavaScript renders web pages in an interactive and dynamic fashion.</li>
+                            <li>This allowing the pages to react to events, exhibit special effects, accept variable text, validate data, create cookies, detect a user’s browser, etc.</li>
+
+                        </ul>
+                    </p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
